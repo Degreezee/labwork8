@@ -84,7 +84,7 @@ func (dp *DatabaseProvider) InsertHello(msg string) error {
 
 func main() {
 	// Считываем аргументы командной строки
-	address := flag.String("address", "127.0.0.1:8081", "адрес для запуска сервера")
+	address := flag.String("address", "127.0.0.1:8082", "адрес для запуска сервера")
 	flag.Parse()
 
 	// Формирование строки подключения для postgres
